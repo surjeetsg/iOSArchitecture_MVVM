@@ -38,7 +38,7 @@ class BaseViewModel: NSObject {
     
     var isApiSuccessResult:Bool? {
         didSet {
-            self.moveControlClosure?()
+            self.redirectControllerClosure?()
         }
     }
     var isFailed:Bool? {
@@ -50,6 +50,6 @@ class BaseViewModel: NSObject {
     var showAlertClosure: ((_ type: AlertType)->())?
     var updateLoadingStatus: (()->())?
     var reloadListViewClosure: (()->())?
-    var moveControlClosure: (()->())?
+    var redirectControllerClosure: (()->())?
     
 }

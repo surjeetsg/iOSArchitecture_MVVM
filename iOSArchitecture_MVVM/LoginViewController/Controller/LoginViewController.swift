@@ -28,7 +28,7 @@ class LoginViewController: BaseViewController {
     
     func initViewModel() {
                 
-        viewModel.moveControlClosure = { [weak self] () in
+        viewModel.redirectControllerClosure = { [weak self] () in
             DispatchQueue.main.async {
                 self?.navigateToHomeScreen()
             }
