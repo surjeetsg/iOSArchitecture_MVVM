@@ -57,7 +57,8 @@ Architecture is following MVVM pattern using Swift Language with version 4.2 and
             - Bundle -> Information of our application like version number, identifier, build number.
             - UICOlor+Hex -> To generate UIColor instance from HEX value.
             
-### Main : Storyboard is used to draw UI for viewcontrollers.
+### Main.storyboard : 
+#####  Storyboard is used to draw UI for viewcontrollers.
 
 Below are points which are handled within this sample app.
 
